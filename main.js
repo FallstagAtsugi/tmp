@@ -19,3 +19,10 @@ console.log(32 % 5);
 
 //累乗
 console.log(2 ** 3);
+
+let number = 10;
+number = -4;
+number = 32.32;
+
+let string = "Hello";
+number = "hello"; //動的型つけ言語
