@@ -1,1 +1,5 @@
-const hello = "hello";
+let count;
+console.log(count);
+count = 30;
+console.log(count);
+let newCount = 0;
