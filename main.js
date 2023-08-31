@@ -26,3 +26,23 @@ number = 32.32;
 
 let string = "Hello";
 number = "hello"; //動的型つけ言語
+
+const userName = `YOshipi`;
+string = string + userName;
+console.log(string);
+
+string = `コンにちは ${userName}!`;
+console.log(string);
+
+const coffee = {
+  name: "Moka",
+  size: 250,
+  isHot: true,
+  topping: ["test", "test"],
+  nutritons: {
+    calories: 430,
+    sugars: 20,
+  },
+};
+
+console.log(coffee.name);
