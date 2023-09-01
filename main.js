@@ -46,3 +46,4 @@ const coffee = {
 };
 
 console.log(coffee.name);
+console.log(coffee.nutritons.calories);
