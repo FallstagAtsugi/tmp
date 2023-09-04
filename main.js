@@ -56,11 +56,46 @@
 // console.log(...arr3);
 
 //配列のコピー、結合 よくReactでも使う
-const arr4 = [10, 20];
-const arr5 = [30, 40];
+// const arr4 = [10, 20];
+// const arr5 = [30, 40];
 
-const arr6 = [...arr4];
-console.log(arr6);
+// const arr6 = [...arr4];
+// console.log(arr6);
 
-const arr7 = [...arr4, ...arr5];
-console.log(arr7);
+// const arr7 = [...arr4, ...arr5];
+// console.log(arr7);
+
+/**
+ * map filterを使った配列の処理
+ */
+const nameArr = ["田中", "中川", "柿崎"];
+
+// for (let i = 0; i < nameArr.length; i++) {
+//   console.log(nameArr[i]);
+// }
+
+// const nameArr2 = nameArr.map((name) => {
+//   return name;
+// });
+// console.log(nameArr2);
+
+// nameArr.map((name, i) => {
+//   console.log(`${i + 1}番目は${name}デス`);
+// });
+
+// const numArr = [1, 2, 3, 4, 5];
+// const newNumArr = numArr.filter((num) => {
+//   return num % 2 === 1;
+// });
+
+// console.log(newNumArr);
+
+const newNameArr = nameArr.map((name) => {
+  if (name === "柿崎") {
+    return name;
+  } else {
+    return `${name}さん`;
+  }
+});
+
+console.log(newNameArr);
