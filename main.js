@@ -117,3 +117,28 @@ const checkSum = (num1, num2) => {
 };
 
 console.log(checkSum(50, 60));
+
+/**
+ * 論理演算氏の本当の意味を知ろう
+ */
+
+// const flag1 = true;
+// const flag2 = false;
+
+// if (flag1 || flag2) {
+//   console.log("１か２はtrueになります");
+// }
+
+// if (flag1 && flag2) {
+//   console.log("１も２はtrueになります");
+// }
+
+// || は左側がfalseなら右側を返す
+const num4 = undefined;
+const fee = num4 || "金額未設定です";
+console.log(fee);
+
+// &&は左側がtrueなら右側を返す
+const num5 = undefined;
+const fee2 = num5 && "何か設定されました";
+console.log(fee2);
