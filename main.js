@@ -106,7 +106,6 @@ console.log(val1);
 
 const num = "1300";
 // console.log(num.toLocaleString());  //数値の場合カンマ区切りにする
-console.log("tset");
 
 const formattedNum =
   typeof num === "number" ? num.toLocaleString() : "数値を入力してください";
